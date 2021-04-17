@@ -24,7 +24,7 @@
     font-family: 'Android 101';
     src: url('Android101.woff2') format('woff2'),
         url('Android101.woff') format('woff'),
-        url('../Android101.ttf') format('truetype');
+        url('Android101.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
