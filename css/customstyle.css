@@ -1,23 +1,7 @@
 
-.slideef
-{
-   animation: slideShow 5s;	
-}
-
-
-@keyframes slideShow
-{
-	0%
-	{
-	   opacity: 1;
-	}
-	
-	100%
-	{
-	   opacity: 0;
-	}
-}
-
+/* 
+FONTE USADA NOME DA EMPRESA
+*/
 
 @font-face 
 {
@@ -31,11 +15,23 @@
 }
 
 
-
-.whatApp
-{	
+.tarjaPreta
+{
+	
+	font-family: 'android 101';
+	background-color: #000;
+	padding-bottom: 10px;
+	opacity: 0.8;
 }
 
+
+
+
+
+
+/* 
+	TAMANHO DOS CARDS
+*/
 
 .card-img-top
 {
@@ -43,6 +39,9 @@
 }
 
 
+/* 
+	ESCONDE O MARQUEE PARA TELAS DESKTOP
+*/
 
 .mobileLetter
 {
@@ -55,6 +54,10 @@
 	border: 0;
 }
 
+/* 
+	LOGO DA EMPRESA
+*/
+
 .logo
 {
 	width: 		  65px;
@@ -63,29 +66,48 @@
 
 .nomeEmpresa
 {
-        font-family: 'Android 101';
+    font-family: 'Android 101';
 	font-size:    25px;
+	font-color:   blue;
 	margin-left:  35px;
 }
+
+
+/* 
+	MEDIA QUERIES
+*/
 
 
 @media (max-width: 500px)
 {
   .nomeEmpresa
-   {
-    	 
+   { 	 
+	
 	display: 	  none;
 	font-size:	  15px;
-	text-align:   	  center;
-	margin-top:       5px;
+	text-align:   center;
+	margin-top:   5px;
+	
    }
+   
+   .tarjaPretaMobile
+	{
+	
+		font-size: 10px;
+	}
+
+   
    
    .mobileLetter
 	{
-		font-family:     'Android 101';
-		display: 	 inline;
-		text-align: 	 center;
-		vertical-align: middle;
+		font-family:       'Android 101';
+		display: 	 	   inline;
+		text-align: 	   center;
+		vertical-align:    middle;
+		height: 		   500px;
+		width:			   100%;
+        background-color:  #212529;		
+		
 	}
 	
 	marquee
