@@ -23,7 +23,7 @@
 @font-face 
 {
      font-family: android;
-     src:url('android101.ttf');
+     src:url('../android101.ttf');
 }
 
 
@@ -58,7 +58,7 @@
 
 .nomeEmpresa
 {
-	font-family:  arial;
+	font-family: android;
 	font-size:    25px;
 	margin-left:  35px;	
 }
