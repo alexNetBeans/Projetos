@@ -73,7 +73,7 @@
 {
   .nomeEmpresa
    {
-    	 font-family:     'Android 101';
+    	 
 	display: 	  none;
 	font-size:	  15px;
 	text-align:   	  center;
@@ -81,9 +81,10 @@
    
    .mobileLetter
 	{
-		display: 	inline;
-		text-align: center
-		margin-bottom: 	0px;
+		font-family:     'Android 101';
+		display: 	 inline;
+		text-align: 	 center
+		margin-bottom: 	 0px;
 	}
 	
 	marquee
