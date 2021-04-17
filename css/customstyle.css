@@ -82,15 +82,13 @@
    .mobileLetter
 	{
 		font-family:     'Android 101';
-		animation: 1s;
 		display: 	 inline;
 		text-align: 	 center;
-		margin-bottom: 	 0px;
 	}
 	
 	marquee
 	{
-		width: 		185px;
+		width: 		100%;
 
 	}
 	
