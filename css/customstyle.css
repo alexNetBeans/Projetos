@@ -1,8 +1,9 @@
 
 .carousel-item
 {
-   animation: slideShow;	
+   animation: slideShow 1s;	
 }
+
 
 @keyframes slideShow
 {
